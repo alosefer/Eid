@@ -21,6 +21,7 @@
 
 - [PHP](#php)
 - [KOTLIN](#kotlin)
+- [C++](#C++)
 
 
 ## Security
@@ -42,6 +43,21 @@ if ($date == "2017/06/25"){
 ?>
 ```
 ---
+## C++
+```
+
+#include <iostream>
+#include <Ramadan>
+using namespace std;
+
+int main() 
+{
+    cout << "Eid Mubarak from Oman!";
+    cout<< " Do not miss to fast 6 day in Shawal"; 
+    return 0;
+}
+
+```
 
 ## kotlin
 ```
