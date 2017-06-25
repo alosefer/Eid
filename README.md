@@ -23,6 +23,9 @@
 - [KOTLIN](#kotlin)
 - [C++](#C++)
 - [swift](#swift)
+- [Python] (#Python)
+
+
 
 
 ## Security
@@ -102,3 +105,7 @@ No exact OS matches for host (test conditions non-ideal).
 Nmap done: 1 IP address (1 host up) scanned in 0.51 seconds
 ```
 
+
+## Python
+
+print (" كل عام و انتم بخير ")
