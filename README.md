@@ -22,6 +22,7 @@
 - [PHP](#php)
 - [KOTLIN](#kotlin)
 - [C++](#C++)
+- [swift](#swift)
 
 
 ## Security
@@ -66,6 +67,23 @@ package Eid
 fun main(args: Array<string>) {
 	println("Eid Mubarak 😁")
 }
+```
+
+## swift
+```
+var data = "2017/6/25"
+ 
+ if data == "2017/6/25"
+ {
+       print("Eid Mubarak 🎉")  
+ }
+ else
+ {
+ print("Error! 🤓 there is no Eid"
+ }
+
+//@ANAS-ALMANA
+
 ```
 
 ## nmap
