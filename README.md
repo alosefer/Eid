@@ -4,16 +4,16 @@
 </h1>
 
 <p align="center">
-	<b>🎉 كل عام وانتم بخير - نسخة التقنيين 🎉</b>
+	<b> كل عام وانتم بخير - نسخة التقنيين </b>
 		<br>
-	<b>🎊 Geeks Eid Mubarak 🎊</b>
+	<b> Geeks Eid Mubarak </b>
 </p>
 
 
 
 ## What it's about?
 <b>
-ملف تفاعلي للإضافة من الجميع أكواد وأوامر خاصة من البرمجة، التقنية، الأمن، التصميم... للتهنئة بالعيد 🎊 ابدع بأفكارك 🙏 ولايوجد حدود للإبداع ❤️
+ملف تفاعلي للإضافة من الجميع أكواد وأوامر خاصة من البرمجة، التقنية، الأمن، التصميم... للتهنئة بالعيد  ابدع بأفكارك  ولايوجد حدود للإبداع 
 </b>
 <br> <br>
 
@@ -33,9 +33,9 @@
 $date = date("Y/m/d");
 
 if ($date == "2017/06/25"){
-	echo "Eid Mubarak 🎊";
+	echo "Eid Mubarak ";
 } else{ 
-	echo"Work Hard 🤓, there is no Eid 😁";
+	echo"Work Hard , there is no Eid ";
 }
 //Yaser @alosefer
 ?>
@@ -46,7 +46,7 @@ if ($date == "2017/06/25"){
 Yasers-MacBook-Pro:~ yaser$ nmap -sS -sV -O sun.25.06.2017
 Starting Nmap 5.00 ( http://nmap.org ) at 2017-06-25 07:30 SA
 Interesting ports on sun.25.06.2017:
-PORT    STATE SERVICE  VERSION
+PORT    STATE   SERVICE     VERSION
 09/tcp  closed  Ramadan     May Allah Accepts your fasting and prayers
 10/tcp  open    Eid         Eid Mubarak 2017
 =Service Info: Device: Yaser's firewall
