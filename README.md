@@ -33,6 +33,7 @@ https://www.periscope.tv/w/1eaJbYnkopeGX
 - [Python](#python)
 - [JavaScript](#javascript)
 - [Java](#java)
+- [Ruby](#ruby)
 
 
 
@@ -183,6 +184,13 @@ else:
     </script>
 ```
 
+## ruby
+```
+
+#!/usr/bin/ruby -w
+
+puts "Happy Eid :) ";
+```
 
 ## nmap
 ```
