@@ -24,7 +24,7 @@
 - [C++](#C++)
 - [swift](#swift)
 - [Python] (#Python)
-
+- [JavaScript](#javascript)
 
 
 
@@ -109,3 +109,29 @@ Nmap done: 1 IP address (1 host up) scanned in 0.51 seconds
 ## Python
 
 print (" كل عام و انتم بخير ")
+
+
+## javascript
+
+    <script src="https://code.jquery.com/jquery-1.8.3.min.js"></script>
+    <body>
+        <h1>Reverse</h1>
+        <p id="list"></p>
+        <p id="results"></p>
+    </body>
+    <script>
+        var n = prompt("Enter diE yppaH");
+       
+        while (n.length > 0) {
+            
+            var ch = n.substring(n.length-1);
+            $("#list").append(ch);
+            n = n.substring(0,n.length-1);
+            
+        }
+        
+        $("#results");
+        
+    </script>
+
+---
