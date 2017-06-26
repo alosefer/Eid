@@ -17,14 +17,21 @@
 </b>
 <br> <br>
 
+## How to contribute🤔?
+<b>
+شرح فيديو كيفية الاضافة معنا بشكل سهل 👋 ننتظر مشاركاتكم الابداااعية
+https://www.periscope.tv/w/1eaJbYnkopeGX
+</b>
+
 ## Porgramming
 
-- [PHP](#php)
-- [KOTLIN](#kotlin)
+- [PHP](#Php)
+- [KOTLIN](#Kotlin)
 - [C++](#C++)
-- [swift](#swift)
-- [Python] (#Python)
-- [JavaScript](#javascript)
+- [swift](#Swift)
+- [Python](#Python)
+- [JavaScript](#Javascript)
+- [Java](#Java)
 
 
 
@@ -33,7 +40,7 @@
 
 ---
 
-## php
+## Php
 ```
 <?php
 $date = date("Y/m/d");
@@ -63,7 +70,7 @@ int main()
 
 ```
 
-## kotlin
+## Kotlin
 ```
 package Eid
 
@@ -72,7 +79,7 @@ fun main(args: Array<string>) {
 }
 ```
 
-## swift
+## Swift
 ```
 var data = "2017/6/25"
  
@@ -88,31 +95,32 @@ var data = "2017/6/25"
 //@ANAS-ALMANA
 
 ```
-
-## nmap
+## Java
 ```
-Yasers-MacBook-Pro:~ yaser$ nmap -sS -sV -O sun.25.06.2017
-Starting Nmap 5.00 ( http://nmap.org ) at 2017-06-25 07:30 SA
-Interesting ports on sun.25.06.2017:
-PORT    STATE   SERVICE     VERSION
-09/tcp  closed  Ramadan     May Allah Accepts your fasting and prayers
-10/tcp  open    Eid         Eid Mubarak 2017
-=Service Info: Device: Yaser's firewall
-MAC Address: 61:6c:6f:73:65:66:65:72 (Hex_To_Text)
-Aggressive OS guesses: Yaser @Alosefer Linux V 4.12-rc6
-No exact OS matches for host (test conditions non-ideal).
-
-Nmap done: 1 IP address (1 host up) scanned in 0.51 seconds
+Scanner enter=new Scanner(System.in);
+System.out.println(" Enter today's date : ");
+String date=enter.next();
+		
+		if(date.equals("25/6/2017")){
+			System.out.println("happy Eid");
+		}
+		
+		else if(date.equals("23/8/2017")){
+			System.out.println("happy Eid");
+		}
+		else{
+			System.out.println(" there is no Eid  ");
+		}
+//@rehabalhasan
 ```
-
 
 ## Python
-
+```
 print (" كل عام و انتم بخير ")
+```
 
-
-## javascript
-
+## Javascript
+```
     <script src="https://code.jquery.com/jquery-1.8.3.min.js"></script>
     <body>
         <h1>Reverse</h1>
@@ -133,5 +141,21 @@ print (" كل عام و انتم بخير ")
         $("#results");
         
     </script>
+```
 
----
+
+## Nmap
+```
+Yasers-MacBook-Pro:~ yaser$ nmap -sS -sV -O sun.25.06.2017
+Starting Nmap 5.00 ( http://nmap.org ) at 2017-06-25 07:30 SA
+Interesting ports on sun.25.06.2017:
+PORT    STATE   SERVICE     VERSION
+09/tcp  closed  Ramadan     May Allah Accepts your fasting and prayers
+10/tcp  open    Eid         Eid Mubarak 2017
+=Service Info: Device: Yaser's firewall
+MAC Address: 61:6c:6f:73:65:66:65:72 (Hex_To_Text)
+Aggressive OS guesses: Yaser @Alosefer Linux V 4.12-rc6
+No exact OS matches for host (test conditions non-ideal).
+
+Nmap done: 1 IP address (1 host up) scanned in 0.51 seconds
+```
