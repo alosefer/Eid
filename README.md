@@ -24,7 +24,7 @@
 - [C++](#C++)
 - [swift](#swift)
 - [Python] (#Python)
-
+- [Java](#java)
 
 
 
@@ -88,6 +88,25 @@ var data = "2017/6/25"
 //@ANAS-ALMANA
 
 ```
+## java
+```
+Scanner enter=new Scanner(System.in);
+System.out.println(" Enter today's date : ");
+String date=enter.next();
+		
+		if(date.equals("25/6/2017")){
+			System.out.println("happy Eid");
+		}
+		
+		else if(date.equals("23/8/2017")){
+			System.out.println("happy Eid");
+		}
+		else{
+			System.out.println(" there is no Eid  ");
+		}
+//@rehabalhasan
+```
+---
 
 ## nmap
 ```
