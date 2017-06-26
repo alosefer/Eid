@@ -70,6 +70,25 @@ int main()
 }
 
 ```
+```
+#include <iostream>
+
+using namespace std;
+
+int main() {
+	int x;
+	int y;
+	for(x=1;x<3;x++)
+	{
+	cout<<"happy eid   "<< x<<"day    ";
+	}
+	y=x;
+	
+	if(y)
+  cout<<"thanks alosefer "<< "all "<< y <<" day";	
+	
+}
+```
 
 ## kotlin
 ```
