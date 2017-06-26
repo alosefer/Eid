@@ -17,14 +17,21 @@
 </b>
 <br> <br>
 
+## How to contribute🤔?
+<b>
+شرح فيديو كيفية الاضافة معنا بشكل سهل 👋 ننتظر مشاركاتكم الابداااعية
+https://www.periscope.tv/w/1eaJbYnkopeGX
+</b>
+
 ## Porgramming
 
-- [PHP](#php)
-- [KOTLIN](#kotlin)
+- [PHP](#Php)
+- [KOTLIN](#Kotlin)
 - [C++](#C++)
-- [swift](#swift)
-- [Python] (#Python)
-- [Java](#java)
+- [swift](#Swift)
+- [Python](#Python)
+- [JavaScript](#Javascript)
+- [Java](#Java)
 
 
 
@@ -33,7 +40,7 @@
 
 ---
 
-## php
+## Php
 ```
 <?php
 $date = date("Y/m/d");
@@ -63,7 +70,7 @@ int main()
 
 ```
 
-## kotlin
+## Kotlin
 ```
 package Eid
 
@@ -72,7 +79,7 @@ fun main(args: Array<string>) {
 }
 ```
 
-## swift
+## Swift
 ```
 var data = "2017/6/25"
  
@@ -88,7 +95,7 @@ var data = "2017/6/25"
 //@ANAS-ALMANA
 
 ```
-## java
+## Java
 ```
 Scanner enter=new Scanner(System.in);
 System.out.println(" Enter today's date : ");
@@ -106,9 +113,38 @@ String date=enter.next();
 		}
 //@rehabalhasan
 ```
----
 
-## nmap
+## Python
+```
+print (" كل عام و انتم بخير ")
+```
+
+## Javascript
+```
+    <script src="https://code.jquery.com/jquery-1.8.3.min.js"></script>
+    <body>
+        <h1>Reverse</h1>
+        <p id="list"></p>
+        <p id="results"></p>
+    </body>
+    <script>
+        var n = prompt("Enter diE yppaH");
+       
+        while (n.length > 0) {
+            
+            var ch = n.substring(n.length-1);
+            $("#list").append(ch);
+            n = n.substring(0,n.length-1);
+            
+        }
+        
+        $("#results");
+        
+    </script>
+```
+
+
+## Nmap
 ```
 Yasers-MacBook-Pro:~ yaser$ nmap -sS -sV -O sun.25.06.2017
 Starting Nmap 5.00 ( http://nmap.org ) at 2017-06-25 07:30 SA
@@ -123,8 +159,3 @@ No exact OS matches for host (test conditions non-ideal).
 
 Nmap done: 1 IP address (1 host up) scanned in 0.51 seconds
 ```
-
-
-## Python
-
-print (" كل عام و انتم بخير ")
