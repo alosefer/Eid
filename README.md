@@ -17,21 +17,22 @@
 </b>
 <br> <br>
 
-## How to contribute🤔?
+## How to contribute 🤔?
 <b>
 شرح فيديو كيفية الاضافة معنا بشكل سهل 👋 ننتظر مشاركاتكم الابداااعية
+</b><br>
 https://www.periscope.tv/w/1eaJbYnkopeGX
-</b>
+
 
 ## Porgramming
 
-- [PHP](#Php)
-- [KOTLIN](#Kotlin)
-- [C++](#C++)
-- [swift](#Swift)
-- [Python](#Python)
-- [JavaScript](#Javascript)
-- [Java](#Java)
+- [PHP](#php)
+- [KOTLIN](#kotlin)
+- [C++](#c++)
+- [swift](#swift)
+- [Python](#python)
+- [JavaScript](#javascript)
+- [Java](#java)
 
 
 
@@ -40,7 +41,7 @@ https://www.periscope.tv/w/1eaJbYnkopeGX
 
 ---
 
-## Php
+## php
 ```
 <?php
 $date = date("Y/m/d");
@@ -54,7 +55,7 @@ if ($date == "2017/06/25"){
 ?>
 ```
 ---
-## C++
+## c++
 ```
 
 #include <iostream>
@@ -70,7 +71,7 @@ int main()
 
 ```
 
-## Kotlin
+## kotlin
 ```
 package Eid
 
@@ -79,7 +80,7 @@ fun main(args: Array<string>) {
 }
 ```
 
-## Swift
+## swift
 ```
 var data = "2017/6/25"
  
@@ -95,7 +96,7 @@ var data = "2017/6/25"
 //@ANAS-ALMANA
 
 ```
-## Java
+## java
 ```
 Scanner enter=new Scanner(System.in);
 System.out.println(" Enter today's date : ");
@@ -114,12 +115,31 @@ String date=enter.next();
 //@rehabalhasan
 ```
 
-## Python
+## python
 ```
 print (" كل عام و انتم بخير ")
 ```
+```
+Open in CMD 
+^^
 
-## Javascript
+
+db_user = "Eid Mubarak"
+db_passwd = "Happy Eid"
+
+
+username = input ('Say,  Eid Mubarak: ')
+password = input ('Say,  Happy Eid: ')
+
+
+if username == db_user and password == db_passwd:
+    print ('Happy Eid')
+else:
+    print ('Happy Eid Too ^_^ ')
+```
+
+
+## javascript
 ```
     <script src="https://code.jquery.com/jquery-1.8.3.min.js"></script>
     <body>
@@ -144,7 +164,7 @@ print (" كل عام و انتم بخير ")
 ```
 
 
-## Nmap
+## nmap
 ```
 Yasers-MacBook-Pro:~ yaser$ nmap -sS -sV -O sun.25.06.2017
 Starting Nmap 5.00 ( http://nmap.org ) at 2017-06-25 07:30 SA
@@ -159,3 +179,4 @@ No exact OS matches for host (test conditions non-ideal).
 
 Nmap done: 1 IP address (1 host up) scanned in 0.51 seconds
 ```
+
