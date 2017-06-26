@@ -54,7 +54,7 @@ if ($date == "2017/06/25"){
 //Yaser @alosefer
 ?>
 ```
----
+
 ## c++
 ```
 
@@ -115,6 +115,7 @@ var data = "2017/6/25"
 //@ANAS-ALMANA
 
 ```
+
 ## java
 ```
 Scanner enter=new Scanner(System.in);
@@ -198,4 +199,3 @@ No exact OS matches for host (test conditions non-ideal).
 
 Nmap done: 1 IP address (1 host up) scanned in 0.51 seconds
 ```
-
