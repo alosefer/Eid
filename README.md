@@ -23,7 +23,7 @@
 - [KOTLIN](#kotlin)
 - [C++](#C++)
 - [swift](#swift)
-- [Python] (#Python)
+- [Python](#Python)
 
 
 
@@ -107,5 +107,22 @@ Nmap done: 1 IP address (1 host up) scanned in 0.51 seconds
 
 
 ## Python
+```
+Open in CMD 
+^^
 
-print (" كل عام و انتم بخير ")
+
+db_user = "Eid Mubarak"
+db_passwd = "Happy Eid"
+
+
+username = input ('Say,  Eid Mubarak: ')
+password = input ('Say,  Happy Eid: ')
+
+
+if username == db_user and password == db_passwd:
+    print ('Happy Eid')
+else:
+    print ('Happy Eid Too ^_^ ')
+```
+
