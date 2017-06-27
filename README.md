@@ -40,6 +40,11 @@ https://www.periscope.tv/w/1eaJbYnkopeGX
 ## Security
 - [nmap](#nmap)
 
+## Database
+
+- [SQL](#SQL)
+
+
 ---
 
 ## php
@@ -189,7 +194,9 @@ else:
 
 #!/usr/bin/ruby -w
 
-puts "Happy Eid :) ";
+puts " Happy Eid :) ";
+
+// @Muneera_Salah
 ```
 
 ## nmap
@@ -206,4 +213,38 @@ Aggressive OS guesses: Yaser @Alosefer Linux V 4.12-rc6
 No exact OS matches for host (test conditions non-ideal).
 
 Nmap done: 1 IP address (1 host up) scanned in 0.51 seconds
+```
+
+## SQL
+```
+-- phpMyAdmin SQL Dump
+-- version 4.5.1
+-- http://www.phpmyadmin.net
+--
+-- Host: 127.0.0.1
+-- Generation Time: Jun 27, 2017 at 09:40 AM
+-- Server version: 10.1.10-MariaDB
+-- PHP Version: 7.0.4
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+CREATE DATABASE Eid  DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci; 
+
+CREATE TABLE `eid_notification` (
+  `ID` int(11) PRIMARY KEY AUTO_INCREMENT NOT NULL,
+  `Eid_Name` varchar(100) NOT NULL,
+  `Eid_Date` date NOT NULL,
+  `Eid_Description` varchar(250) NOT NULL,
+  `Eid_Message` varchar(250) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 ;
+
+INSERT INTO `eid_notification` 
+(`ID`, `Eid_Name`, `Eid_Date`, `Eid_Description`, `Eid_Message`) 
+VALUES
+(1, 'عيد الفطر - Eid Al Fitr\r\n', '2017-06-25', 'بعد صيام شهر رمضان المبارك - After fasting the holy month of Ramadan', 
+'Eid Mubarak - عيد مبارك');
+
+// @Muneera_Salah
+
 ```
