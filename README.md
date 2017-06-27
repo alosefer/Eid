@@ -31,7 +31,6 @@ https://www.periscope.tv/w/1eaJbYnkopeGX
 - [C++](#c++)
 - [swift](#swift)
 - [Python](#python)
-- [Python 2nd](#python2nd)
 - [JavaScript](#javascript)
 - [Java](#java)
 - [Ruby](#ruby)
@@ -160,8 +159,10 @@ else:
     print ('Happy Eid Too ^_^ ')
 ```
 
-## python2nd
+New Python Code
 ```
+
+
 #Fahad Alsubaie @FahadMIT
 import time
 import os
