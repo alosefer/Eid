@@ -96,7 +96,14 @@ int main() {
 package Eid
 
 fun main(args: Array<string>) {
-	println("Eid Mubarak 😁")
+	println("Enter a date!")
+	var date = readLine()!!.toString()
+	
+	if(date.equals("25/6/2017")){
+		println("Happy Eid 😍")
+	}else{
+		println("You have to work hard 🤓")
+	}
 }
 ```
 
