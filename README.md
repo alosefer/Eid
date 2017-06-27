@@ -124,20 +124,21 @@ var data = "2017/6/25"
 
 ## java
 ```
+public class EidGreeting{
+
+public static void main(String [] args){
+
 Scanner enter=new Scanner(System.in);
 System.out.println(" Enter today's date : ");
 String date=enter.next();
 		
 		if(date.equals("25/6/2017")){
-			System.out.println("happy Eid");
+			System.out.println("happy Eid 😎");
+		}else{
+			System.out.println(" there is no Eid 😢, You have to work hrad agine):");
 		}
-		
-		else if(date.equals("23/8/2017")){
-			System.out.println("happy Eid");
-		}
-		else{
-			System.out.println(" there is no Eid  ");
-		}
+      }
+}
 //@rehabalhasan
 ```
 
