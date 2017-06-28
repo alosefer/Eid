@@ -115,7 +115,7 @@ var data = "2017/6/25"
  }
  else
  {
- print("Error! 🤓 there is no Eid"
+ print("Error! 🤓 there is no Eid")
  }
 
 //@ANAS-ALMANA
