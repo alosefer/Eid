@@ -76,7 +76,7 @@ int main()
 }
 
 ```
-```
+
 #include <iostream>
 
 using namespace std;
@@ -94,7 +94,31 @@ int main() {
   cout<<"thanks alosefer "<< "all "<< y <<" day";	
 	
 }
+
 ```
+
+...
+
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+
+int x = 25 ;
+int z = 26 ;
+int w = 27 ;
+
+if ( x == 25 )
+if ( z == 26 )
+if ( w == 27 ){
+
+cout << "Yes is eid days" << endl;
+}
+
+}
+
+...
 
 ## kotlin
 ```
@@ -162,28 +186,6 @@ if username == db_user and password == db_passwd:
     print ('Happy Eid')
 else:
     print ('Happy Eid Too ^_^ ')
-```
-
-New Python Code
-```
-
-
-#Fahad Alsubaie @FahadMIT
-import time
-import os
-MessageBeforeEid = "The Eid will coming"
-today = time.strftime("%d/%m/%Y")
-EidTime= "25/06/2017"
-user= os.popen('whoami').read()
-EidMessage = ("Happy Eid :) Mr." + '%s' %user)
-if today < EidTime:
-    print (MessageBeforeEid)
-elif today == EidTime:
-    print (EidMessage)
-elif today > EidTime:
-    print ('Today is ''%s'' You miss the Eid'%today)
-else:
-    quit()
 ```
 
 
